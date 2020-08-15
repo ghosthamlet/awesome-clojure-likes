@@ -15,9 +15,29 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 > Hy is a wonderful dialect of Lisp that’s embedded in Python.
 
  * [Try it](https://try-hy.appspot.com/).
+ * [Source code](https://github.com/hylang/hy).
  * High level of interop with host language.
  * All of available Python tooling available.
  * Actively developed.
+
+### [Pixie](https://github.com/pixie-lang/pixie)
+
+> A small, fast, native lisp with "magical" powers.
+
+ * Implemented in RPython.
+ * Runs on own VM.
+ * Dormant project.
+
+### [Clojerl](https://clojerl.org/)
+
+> Clojure implemented on the Erlang VM.
+
+ * [Try it](http://try.clojerl.online/).
+ * [Source code](https://github.com/clojerl/clojerl).
+ * Interoperability as smooth as possible, just like Clojure proper and ClojureScript do.
+ * Provide most Clojure abstractions.
+ * Provide all Erlang abstractions and toolset.
+ * Include a default OTP library in Clojerl.
 
 ### [Lux](https://github.com/LuxLang/lux)
 
@@ -27,13 +47,6 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Inspied by Haskell, Clojure, ML.
  * Actively developed.
 
-### [ki](http://ki-lang.org/)
-
-> A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
-
- * Implemented in Javascript
- * Intermix LISP code with JavaScript.
-
 ### [Wisp](https://github.com/Gozala/wisp)
 
 > A little Clojure-like LISP in JavaScript.
@@ -42,12 +55,14 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Native JavaScript types and function calls.
  * Maintenance mode.
 
-### [Pixie](https://github.com/pixie-lang/pixie)
+### [Joker](https://joker-lang.org/)
 
-> A small, fast, native lisp with "magical" powers.
+> Joker is a small interpreted dialect of Clojure written in Go. It is also a Clojure(Script) linter.
 
- * Implemented in RPython.
- * Runs on own VM.
+ * [Source code](https://github.com/candid82/joker)
+ * Fast startup time.
+ * Sane error messages and stacktraces.
+ * Batteries included: send HTTP requests, read and parse JSON, work with file system, start external processes, etc.
 
 ### [Ferret](https://nakkaya.com/2016/06/10/ferret-a-hard-real-time-clojure-for-lisp-machines/)
 
@@ -58,7 +73,16 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Restricted subset of Clojure.
  * Embedded systems focus.
 
-### [Toccata](https://github.com/jduey/toccata)
+### [ki](http://ki-lang.org/)
+
+> A functional programming language that expands into JavaScript through a very thin layer of sweet.js macros.
+
+ * [Source code](https://github.com/lantiga/ki)
+ * Implemented in Javascript
+ * Intermix LISP code with JavaScript.
+ * Dormant project.
+
+### [Toccata](https://github.com/Toccata-Lang/toccata)
 
 > A Clojure dialect that compiles to native executable using the Clang compiler.
 
@@ -70,6 +94,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in Ruby.
  * Tries to cover Ruby's functionality with more concise code forms.
+ * Dormant project.
 
 ### [slisp](https://github.com/bailesofhey/slisp)
 
@@ -77,6 +102,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 
  * Implemented in C++.
  * Modern, OO, both statically & dynamically typed.
+ * Dormant project.
 
 ### [timl](https://github.com/tpope/timl)
 
@@ -90,7 +116,7 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
 > Apricot is a programming language inspired by Clojure and Lisp that runs on the [Rubinius](http://rubini.us/) VM.
 
  * Implemented in Ruby.
- * Dorman1 project.
+ * Dormant project.
 
 ### [Gherkin](https://github.com/alandipert/gherkin)
 
@@ -106,6 +132,13 @@ Mapping the constellation of [Clojure](https://en.wikipedia.org/wiki/Clojure)-li
  * Implemented in OCaml.
  * Runs on the LLVM JIT.
  * Dormant project.
+
+### [Small Clojure Interpreter](https://github.com/borkdude/sci)
+
+> A tiny implementation of Clojure in Clojure.
+
+* Made to evaluate code from user input where `eval` is unsafe or unavailable.
+* Early development.
 
 # Mal [make-a-lisp](https://github.com/kanaka/mal)
 
